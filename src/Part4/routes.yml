@@ -1,0 +1,10 @@
+app.home:
+    path: /
+    methods: [GET]
+    defaults: { _controller: DefaultController:homeAction }
+app.page:
+    path: /{url}
+    methods: [GET]
+    defaults: { _controller: PageController:pageAction }
+    requirements:
+        url: '[a-zA-Z0-9-_]+'

@@ -1,0 +1,7 @@
+/vendor/
+*.sublime-workspace
+.php_cs*
+composer.phar
+composer.lock
+src/Part3/cache/*
+src/Part3/log/*
